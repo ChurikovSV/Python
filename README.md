@@ -7,5 +7,5 @@ Lesson_10
 Итоговая задача.
 В ячейке ниже представлен код генерирующий DataFrame, которая состоит всего из 1 столбца. Ваша задача перевести его в one hot вид. Надо это сделать без get_dummieНs.
 
-Плезные материалы
+Полезные материалы
 https://colab.research.google.com/drive/1qKamnDiRmpRZkpiqWPkunBdAhmzhMcGz?usp=sharing
