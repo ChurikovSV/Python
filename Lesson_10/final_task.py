@@ -9,8 +9,8 @@ lst += ['human'] * 10
 
 shuffle(lst)
 
-robot_lst = (1 if el == 'robot' else 0 for el in lst)
-human_lst = (1 if el == 'human' else 0 for el in lst)
+robot_lst = (1 if element == 'robot' else 0 for element in lst)
+human_lst = (1 if element == 'human' else 0 for element in lst)
 
 data = pd.DataFrame({'human': human_lst, 'robot': robot_lst})
 
