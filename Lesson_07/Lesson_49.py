@@ -18,4 +18,11 @@ find_farthest_orbit(list_of_orbits), которая среди списка ор
 имеющий такую площадь. Гарантируется, что самая далекая
 планета ровно одна'''
 
+def find_orbit(list_orbit):
+    return max(map(lambda c: c if c[0] != c[1] else (0, 0), list_orbit), key = lambda s: pi * s[0] * s[1])
+
+from math import pi
+
+orbit = [(1,3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
+print(*find_orbit(orbit))
     
